@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+/*
+#Navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+
+}
+*/
+
+/*
+.body{
+    padding: 90px 20px 0;
+
+}
+
+#headerscroll{
+    background-color: white;
+    color: white;
+    height: 80px;
+    position: fixed;
+    width: 100%;    
+    top: 0;
+    left: 0;
+}
+
+#completenav{
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+#Navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#Logo{
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+#Social{
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+#navlist{
+    display: flex;
+    margin-right: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    color: black;
+    width: max-content;
+
+}
+
+.nav-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-link:hover{
+    background-color: rgb(153, 152, 152);
+    transition: 0.5s;
+}
+*/
+
+
+#Banner{
+    padding: 0;
+    margin: 0;
+}
+
+
+#Story{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-image: url(Imagenes/IntentoA.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.Storytext{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1rem;
+    text-align:justify;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: 3/ span 6;
+    grid-row: 2/ span 5;
+    margin: 5px auto;
+    padding: 100px;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+#beasts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}
+h2{
+    text-align: center;
+    font-family: 'Lora', serif;
+    
+}
+
+h3{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+p{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+h6{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#Team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+#Theartist{
+    align-content: center;
+    grid-column: 1/1;
+    margin: 10px;
+    padding-left: 150px;
+}
+#Theartisttext{
+    text-align:justify;
+    align-items: center;
+    margin-left: 65px;
+}
+#Oliverig{
+    text-align:justify;
+    align-items: center;
+    margin-left: 35px;
+}
+#Olivertext{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1.1rem;
+    text-align:justify;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: 2/ span 6;
+    padding: 5px;
+    margin: 100px;
+}
+
+.Titulo3{
+    text-align:justify;
+    margin: 75px 50px 75px 50px;
+   
+}
+
+#Mintimage{
+    margin: 10px 0px;
+    padding: 5px;
+    align-items: center;
+}
+
+
+body{
+    padding: 90px 5px 0;
+}
+
+.header{
+    background-color: white;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    /*max-width: 992px;
+    margin: 0 auto;*/
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+
+
+.nav-link-smart{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(43, 42, 42);
+  
+}
+
+
+.nav-link-smart{
+    padding-inline-end: 8px 12px;
+    border-radius: 3px;
+
+}
+.nav-link-smart:hover{
+    background-color: rgb(97, 97, 97);
+    transition: 00.5s;
+}
+
+
+.Logo{
+    padding: 0px 150px;
+    line-height: 80px;
+    margin: 0 auto;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item1{
+    font-size: 18px;
+    margin: 15px 5px;
+    padding: 0 auto;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-item{
+    font-size: 16px;
+    margin: 15px 0px;
+    padding: 0 auto;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding-inline-end: 8px 12px;
+    border-radius: 3px;
+
+}
+.nav-menu-link:hover{
+    background-color: rgb(202, 198, 198);
+    transition: 00.5s;
+}
+
+.nav-toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+
+    display: none;
+
+}
+
+@media (max-width: 768px){
+    body{
+        padding-top: 70px;
+    }
+    
+    .header{
+        height: 60px;
+    }
+        
+    .Logo{
+        padding: 0px 20px;
+        line-height: 60px;
+        margin: 0 auto;
+    }
+    
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color:rgb(141, 132, 132);
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+
+        left: 100%;
+        transition: 0.3s;
+       
+    }
+    
+    .nav-menu-item1{
+        line-height: 60px;
+    }
+    
+    .nav-menu-item{
+        line-height: 60px;
+    }
+    
+    /*
+    .nav-toggle{
+        display: block;
+    }
+    */
+
+    .nav-menu_visible{
+        left: 0;
+    }
+   
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    margin: auto 225px;
+    
+}
